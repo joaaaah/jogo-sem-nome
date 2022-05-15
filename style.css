@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 31, 31);
+    width: 100%;
+    height: 100%;
+}
+h3{
+    color:white;
+}
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+
+}
+#resposta{
+    padding: 5px;
+    border-style: none;
+    height: 50px;
+    
+}
+#button{
+    padding: 5px;
+    background-color: rgb(85, 85, 85);
+    border-style: none;
+    color: white;
+    height: 50px;
+}
+#button:hover{
+    cursor:pointer;
+    background-color: rgb(46, 45, 45);
+
+
+}
+#cock{
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    display: block;
+    margin: 2px auto;
+    height: 30px;
+    width: 200px
+}
+#shit{
+    height: 200px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

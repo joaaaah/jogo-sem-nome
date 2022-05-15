@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jogo - level 2</title>
+</head>
+<body>
+    <form>
+
+        <h3>2. turn the light on</h3>
+        <img src="/media/escuro.jpg" alt="" id="shit">
+        <input type="text" placeholder="resposta" id="resposta">
+
+        <input type="submit" onclick="answer(); return false" id="button" >
+
+   </form>
+
+
+   <script>
+
+
+    function answer(){
+
+        var login = document.getElementById('resposta').value;
+
+        if (login == "Blackout"){
+            location.href = "level3.html";
+        }else{
+            alert('try again');
+        }
+
+    }
+   </script>
+
+
+</body>
+</html>

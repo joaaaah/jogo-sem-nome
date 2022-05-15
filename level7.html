@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>jogo - level 7</title>
+</head>
+<body>
+    <form>
+
+        <h3>7. Are you good at geography?</h3>
+        <img src="/img/rainbow.jpeg" alt="">
+        <input type="text" placeholder="resposta" id="resposta">
+
+        <input type="submit" onclick="answer(); return false" id="button" >
+
+   </form>
+
+
+   <script>
+
+
+    function answer(){
+
+        var login = document.getElementById('resposta').value;
+
+        if (login == "18.146079, -66.798648"){
+            location.href = "level8.html";
+        }else{
+            alert('try again');
+        }
+
+    }
+   </script>
+
+
+</body>
+</html>
